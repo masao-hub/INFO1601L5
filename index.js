@@ -86,9 +86,9 @@ function averageAssessment(students, courseName, assignment) {
 }
 
 
-console.log("Average grade for Bob in INFO 1080:", getAverageGrade(bob, 'INFO 1080'));
-console.log("Assignment 1 grade for Bob in INFO 1080:", getAssignmentMark(bob, 'INFO 1080', 1)); 
-console.log("Average mark for all students in INFO 1080, Assignment 0:", averageAssessment(students, 'INFO 1080', 0));
+console.log("Average grade for Bob in INFO 1080: ", getAverageGrade(bob, 'INFO 1080'));
+console.log("Assignment 1 grade for Bob in INFO 1080: ", getAssignmentMark(bob, 'INFO 1080', 1)); 
+console.log("Average mark for all students in INFO 1080, Assignment 0: ", averageAssessment(students, 'INFO 1080', 0));
 
 
 function createPerson(name, height, weight) {
